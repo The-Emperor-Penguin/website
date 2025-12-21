@@ -8,7 +8,13 @@
     <meta charset="utf-8" />
     <title>Josiah Snyder</title>
     <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="index.css" />
   </head>
   <body class="kantumruy-pro-font">
@@ -16,59 +22,136 @@
     <div style="justify-content: center; align-items: center; display: flex">
       <h1>Josiah Snyder</h1>
     </div>
-    <a href="#aboutme">Jump link</a>
+    <div style="display: flex; justify-content: center;">
+    <a href="#aboutme">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    </div>
     <div id="aboutme" style="display: grid">
       <h2>About Me</h2>
       <div>
         <p>
-          I am currently live in Roanoke, TX and am perusing a Bachelors of
-          Science at the University of North Texas. I have lived in Texas most of
-          my life and it has become like home. I like reading books, here are some
-          of them: Dune, 1984, The Grapes of Wrath, and A Game of Thrones. #MAYBE
-          SPICE IT UP WITH SOME GRAPHICS#
+          I am currently living in Fort Worth, TX, and am pursuing a Bachelor of
+          Science at the University of North Texas (UNT). I have lived in Texas
+          most of my life, and it has become like home. I want to work on
+          technology that could help improve people's lives. I have been on the
+          president's list at UNT since my very first semester. In my free time,
+          I like to read sci-fi, fantasy, and some non-fiction books. I also
+          work on anything that piques my interest.
         </p>
-        <ol>
-          <li>Dune</li>
-          <li>1984</li>
-          <li>The Grapes of Wrath</li>
-          <li>A Game of Thrones</li>
-        </ol>
-        <p>
-          Here are some of the bands I currently
-          like listening to: __________________ #Maybe embed a playlist from
-          YouTube?.#</p>
       </div>
     </div>
-    <div style="display: block flex">
-      <img
-        src="IMG7140408814687546397.AVIF"
-        alt=""
-        style="float: left"
-        height="288"
-        width="384"
-        size="auto"
-        loading="lazy"
-      />
+    <div id="skills" style="display: inline grid">
+      <h2>Skills</h2>
       <div
-        style="
-          justify-content: center;
-          align-items: center;
-          display: inline grid;
-        "
+        style="display: flex; justify-items: center; justify-content: center"
       >
-        <p>
-          I am currently persuing a Bachalors of Science at the University of
-          North Texas. I have done many courses including Data Structures and
-          Foundations of computing. I also participated in the UNT AI Summer
-          Research Program in 2025. There I worked on a system that was trained
-          to detect malware on IoT devices. If you would like to see more about
-          the project please check out my GitHub above.
-        </p>
-        <p>
-          Besides my education I have worked on some small scale projects for
-          fun such as my Ultra High Compression Ratio project that is able to
-          _____________.
-        </p>
+        <div style="display: inline grid">
+          <div class="SkillBox">
+            <h3>C++</h3>
+            <p>
+              I have written many projects in C++ and have about a year and a
+              half of experience with the language. One of the projects is the
+              course project mentioned below in the projects section.
+            </p>
+          </div>
+          <div class="SkillBox">
+            <h3>Python</h3>
+            <p>
+              I have about 5 years of Python experience and have written many
+              projects with it. One of the most recent projects is the IoT
+              Malware Detection project, which is mentioned below in the project
+              section.
+            </p>
+          </div>
+          <div class="SkillBox">
+            <h3>Caddy</h3>
+            <p>
+              I have used Caddy to host this website after installing and
+              configuring it for my web server.
+            </p>
+          </div>
+        </div>
+        <div style="display: inline grid">
+          <div class="SkillBox">
+            <h3>Linux</h3>
+            <p>This is a test of how things look here.</p>
+          </div>
+          <div class="SkillBox">
+            <h3>GitHub</h3>
+            <p>
+              I have used Git and GitHub to manage many of my projects that
+              might require significant time to work on, or that need input from
+              other people. The IoT Malware Detection Survey project below used
+              GitHub to help organize all the code we wrote for the paper so
+              that anyone interested may see what we did.
+            </p>
+          </div>
+          <div class="SkillBox">
+            <h3>Pytorch</h3>
+            <p>
+              I have used this for one project, which was the IoT Malware
+              Detection Survey, as we had to create ML models for that. I had to
+              create a CNN that would take statistical data from a graph to
+              determine if a program was malware.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="projects" id="projects" style="display: grid">
+      <h2>Projects</h2>
+      <div style="display: flex">
+        <div>
+          <div style="display: grid;">
+            <h3 style="justify-self: center; padding-bottom: 1rem;">Iot Malware Detection Review</h3>
+            <div>
+              <img
+                src="IMG7140408814687546397.AVIF"
+                alt=""
+                style="
+                  float: inline-start;
+                  max-width: 40%;
+                  height: fit-content;
+
+                  object-fit: contain;
+                  padding: 2%;
+                  border-radius: 5vw;
+                "
+                size="auto"
+                loading="lazy"
+              />
+              <p>
+                This project was to find out the problems that currently exist
+                while trying to replicate Artificial Intelligence research. For
+                this, we replicated some research papers about IoT malware
+                detection and discovered issues that were in the papers. Some
+                did not have an available dataset and therefore could not be
+                properly replicated. The research was conducted during the UNT
+                AI Summer Research Program in 2025. We have yet to finish
+                finalizing the paper, but we currently have a poster showing our
+                results. The poster was also presented at the UNT University
+                Research Day. The current version of the poster can be found
+                here.
+              </p>
+            </div>
+          </div>
+          <div>
+            <h3>Course Project</h3>
+            <p>
+              This project was designed to help me understand how graphs could
+              be used in a real scenario. The scenario was to design 3
+              algorithms that an airline or travel site might want. The first
+              algorithm was to find the path with at most a certain number of
+              connecting flights. The second algorithm was to find the path that
+              had the fewest connecting flights between two cities that also
+              included two other cities. The last algorithm was to find a city
+              that had the fewest connecting flights from three other cities. If
+              you would like to learn more about the project, you can visit the
+              GitHub here:
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </body>

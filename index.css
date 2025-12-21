@@ -7,19 +7,59 @@
 }
 
 body {
-    background-color: darkcyan;
+    background: #00AAFF;
+    background: linear-gradient(0deg,rgba(0, 195, 217, 1) 0%, rgba(0, 170, 255, 1) 100%);
 }
 
 h1 {
-    color:rgb(210, 210, 210);
+    padding: auto;
+    font-size: 4rem;
+    color:rgb(0, 0, 0);
 }
 
 h2 {
-    color: rgb(210, 210, 210);
+    font-size: 3rem;
+    padding: auto;
+    color: rgb(0, 0, 0);
     justify-self: center;
+}
+h3 {
+    font-size: 2.4rem;
+    padding-bottom: 10px;
+}
+
+a {
+    font-weight: 200;
+    font-size: 2rem;
+    padding-inline: .5rem;
 }
 
 p {
-    color: rgb(210, 210, 210);
+    font-size: 1.25rem;
+    padding: auto;
+    color: rgb(0, 0, 0);
+    font-weight: 350;
     justify-self: center;
+}
+
+a {
+    color:rgb(0, 30, 68)
+}
+
+.SkillBox {
+    justify-self: center;
+    justify-items: center;
+    background-color: cadetblue;
+    border-radius: 5vw;
+    padding: 2vw;
+    margin: 2vw;
+}
+.SkillBox p {
+    padding: 0vw;
+    margin: 1vw;
+}
+.projects h2 {
+    justify-self: center;
+    justify-content: center;
+    justify-items: center;
 }
