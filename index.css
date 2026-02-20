@@ -5,58 +5,61 @@
 	font-style: normal;
 }
 
+:root {
+	--blue: #0084ff;
+	--grey: #4d4d4d
+}
+
 header{
 	opacity: 0%;
 }
 
 body {
-	background: #00aaff;
-	background: linear-gradient(
-		0deg,
-		rgba(0, 195, 217, 1) 0%,
-		rgba(0, 170, 255, 1) 100%
-	);
+	background: var(--grey);
 }
 
 h1 {
 	padding: auto;
 	font-size: 3rem;
-	color: rgb(0, 0, 0);
+	color: var(--blue)
 }
 
 h2 {
 	font-size: 2rem;
 	padding: auto;
-	color: rgb(0, 0, 0);
+	color: var(--blue);
 	justify-self: center;
 }
 h3 {
+	color: var(--blue);
 	font-size: 1.5rem;
 }
 
 a {
+	color:var(--blue);
 	font-weight: 200;
 	font-size: 1.5rem;
 	padding-inline: 0.5rem;
 }
 
-p {
+p { 
+	color: var(--blue);
 	font-size: 1.05rem;
 	padding: auto;
-	color: rgb(0, 0, 0);
+	color: var(--blue);
 	font-weight: 350;
 	justify-self: center;
 }
 
 a {
-	color: rgb(0, 30, 68);
+	color: var(--blue);
 }
 
 
 .SkillBox {
 	justify-self: center;
 	justify-items: center;
-	background-color: cadetblue;
+	background-color: var(--blue);
 	border-radius: 5vw;
 	padding: 2vw;
 	margin: 2vw;
@@ -65,8 +68,10 @@ a {
 	padding: 0vw;
 	margin: 1vw;
 	max-width: 20vw;
+	color: var(--grey)
 }
 .SkillBox h3 {
+	color: var(--grey);
 	text-align: center;
 }
 
@@ -89,7 +94,6 @@ a {
 .ProjectDisc a {
 	font-size: 1.05rem;
 	padding: auto;
-	color: rgb(0, 0, 0);
 	font-weight: 350;
 	justify-self: center;
 }
