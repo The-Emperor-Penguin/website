@@ -5,6 +5,10 @@
 	font-style: normal;
 }
 
+header{
+	opacity: 0%;
+}
+
 body {
 	background: #00aaff;
 	background: linear-gradient(
@@ -88,6 +92,12 @@ a {
 	color: rgb(0, 0, 0);
 	font-weight: 350;
 	justify-self: center;
+}
+
+@media screen and (max-width: 767px) {
+	header {
+		opacity: 100%;
+	}
 }
 
 @media screen and (min-width: 768px) {
