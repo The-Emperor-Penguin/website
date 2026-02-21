@@ -127,10 +127,4 @@ a {
 	.ProjectDisc a {
 		font-size: 1.3rem;
 	}
-	.skillstop div {
-		display: grid;
-	}
-	.skillsbtm div {
-		display: flow-root;
-	}
 }
