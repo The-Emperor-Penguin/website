@@ -49,6 +49,9 @@ p {
 	color: var(--blue);
 	font-weight: 350;
 	justify-self: center;
+	margin: auto;
+	max-width: 85%;
+	min-width: 150px;
 }
 
 a {
@@ -68,17 +71,20 @@ a {
 	box-shadow: 10px 10px 20px 2px #000000;
 	display: block;
 	height: auto;
+	min-width: 150px;
 }
 
 .SkillBox p {
 	padding: 0vw;
 	margin: 1vw;
 	max-width: 20vw;
-	color: var(--grey)
+	color: var(--grey);
+	min-width: 125px;
 }
 .SkillBox h3 {
 	color: var(--grey);
 	text-align: center;
+	
 }
 
 .projects h2 {
@@ -134,9 +140,9 @@ a {
 		font-size: 1.3rem;
 	}
 	.skillstop div {
-		display: grid;
+		font-size: .3rem;
 	}
 	.skillsbtm div {
-		display: flow-root;
+		font-size: .3rem;
 	}
 }
